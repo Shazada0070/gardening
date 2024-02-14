@@ -454,7 +454,7 @@ input:focus{
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
 }
 .help{
-    width: 74.5%;
+    
     margin: auto;
 }
 .get-estimate{
@@ -1002,7 +1002,7 @@ border-bottom: 1px solid green;
     }
     .help{
         
-        width: auto;
+
     }
    .get-estimate{
     left: 41%;
@@ -1118,7 +1118,6 @@ border-bottom: 1px solid green;
     flex-wrap: wrap;
 }
 .help{
-    width: 53%;
 }
 .get-estimate{
     left: 41%;
@@ -1347,11 +1346,7 @@ footer{
   
     /* min-height: 110vh; */
 }
-.help{
-    width: 88%;
-    height: 30%;
     /* margin: 0px; */
-}
 .get-estimate{
    
     top: 28%;

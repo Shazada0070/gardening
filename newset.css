@@ -4,9 +4,14 @@
     outline: none;
     border: 2px solid green;
     border-radius: 3px;
+
+}
+@media (max-width:1300px){
+    .enddiv{
     width: 445px;
     height: 70px;
     text-align: center;
+}
 }
 .form-up{
     height: 80%;
@@ -16,4 +21,13 @@
     width: 214px;
     height: 44px;
 
+}
+@media (max-width: 375px){
+.enddiv {
+    width: 350px;
+    height: 44px;
+}
+body{
+    overflow-x:hidden;
+}
 }
