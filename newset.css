@@ -4,6 +4,16 @@
     outline: none;
     border: 2px solid green;
     border-radius: 3px;
-    width: 175px;
-    height: 48px;
+    width: 445px;
+    height: 70px;
+    text-align: center;
+}
+.form-up{
+    height: 80%;
+    width: 30%;
+}
+.form-input{
+    width: 214px;
+    height: 44px;
+
 }
