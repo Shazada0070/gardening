@@ -30,7 +30,7 @@ header{
     height: 100vh;
     position: relative;
     width: 100%;
-    padding:0px 25px;
+    padding:0px 30px;
 }
 .btn-nav {
   font-size: 17px;
@@ -692,7 +692,8 @@ align-self: flex-start;
     object-fit: cover;
 }
 .bottom-7{
-    margin-top: 200px;
+    margin-top: 0px;
+    top: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -700,16 +701,17 @@ align-self: flex-start;
     text-align: center;
     font-weight: 700;
     position: absolute;
-    left: 222px;
+    left: 24s2px;
     bottom: -171px;
 }
 .bottom-7 h4{
     text-transform: uppercase;
+    font-size: x-large;
  
 }
 .bottom-7 p{
-    font-size: 11px;
-    font-weight: 600;
+    font-size: 13px;
+    font-weight: 400;
     width: 50%;
 }
 .bottom-7 a{
@@ -732,8 +734,11 @@ align-self: flex-start;
 }
 .test-bg img{
     width: 100%;
-    height: 100%;
+    height: 75%;
     object-fit: cover;
+    position: relative;
+    top: 60px;
+    right: 60px;
 }
 .grass-bottom{
     
