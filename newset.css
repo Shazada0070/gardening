@@ -4,7 +4,15 @@
     outline: none;
     border: 2px solid green;
     border-radius: 3px;
+    position: relative;
+    width: 440px;
+    height: 88px;
+}
 
+input.enddiv::placeholder{
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 @media (max-width:1300px){
     .enddiv{
@@ -23,7 +31,7 @@
 
 }
 @media (max-width: 480px){
-.enddiv {
+.form-up .enddiv {
     width: 214px;
     height: 44px;
 }
@@ -45,4 +53,7 @@ body{
     padding: 0px 30px;
     position: relative;
     bottom: 40px;
+}
+.paddsection .text-center{
+    padding-top: 26%;
 }

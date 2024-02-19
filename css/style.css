@@ -509,7 +509,8 @@ input:focus{
 .form-leaf5{
    right: 0%;
     max-width: 400px;
-    bottom: -91%;
+    bottom: -90%;
+
 }
 /* Section 3  */
 /* Section 4 */
@@ -523,7 +524,7 @@ input:focus{
 .section-5{
     /* height: 100vh; */
     /* position: relative; */
-    padding: 0px 30px;
+    padding: 70px 30px;
     padding-top: 50px;
     padding-bottom: 30px;
 }
@@ -668,6 +669,7 @@ align-self: flex-start;
 /* Section 6  */
 /* Section 7 */
 .section-7{
+    padding: 70px 0px;
     position: relative;
 }
 .testmonial{
@@ -693,7 +695,7 @@ align-self: flex-start;
 }
 .bottom-7{
     margin-top: 0px;
-    top: 300px;
+    top: 380px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -701,7 +703,7 @@ align-self: flex-start;
     text-align: center;
     font-weight: 700;
     position: absolute;
-    left: 24s2px;
+    left: 245px;
     bottom: -171px;
 }
 .bottom-7 h4{
@@ -712,7 +714,7 @@ align-self: flex-start;
 .bottom-7 p{
     font-size: 13px;
     font-weight: 400;
-    width: 50%;
+    width: 74%;
 }
 .bottom-7 a{
     text-decoration: none;
@@ -734,10 +736,10 @@ align-self: flex-start;
 }
 .test-bg img{
     width: 100%;
-    height: 75%;
+    height: 80%;
     object-fit: cover;
     position: relative;
-    top: 60px;
+    top: 152px;
     right: 60px;
 }
 .grass-bottom{
@@ -986,7 +988,7 @@ border-bottom: 1px solid green;
         height: 53vh;
     }
     .box-bg2{
-        left: 36%;
+        left: 24%;
     }
     .box-up{
         left: 45%;
@@ -1153,6 +1155,7 @@ border-bottom: 1px solid green;
 /* Section 6 */
 .section-6{
     flex-direction: column;
+    padding-top: 26%;
 }
 .inner-right-6::before{
     display: none;
@@ -1327,7 +1330,7 @@ footer{
     }
     .top-4{
         position: relative;
-    left: -35px;
+    left: -40px;
     }
     .about-image {
        
@@ -1354,7 +1357,7 @@ footer{
     /* margin: 0px; */
 .get-estimate{
    
-    top: 28%;
+    top: 26%;
     left: 31%;
 
 }
@@ -1441,6 +1444,10 @@ z-index: 100;
     
 }
 .test-bg img{
+    position: relative;
+    top: 80px;
+    height: 60%;
+    left: 0px;
     object-fit: contain;
 }
 .grass-bottom{
@@ -1448,19 +1455,16 @@ z-index: 100;
         bottom: -200px;
 }
 .bottom-7{
-    
     width: 100%;
     left: -12px;
-    top: 240px;
+    top: 508px;
     text-align: left;
-    padding-left: 20px;
-    align-items: flex-start;
-
+    text-align: left;
 }
 .bottom-7 h4{
         /* padding: 0px 10px; */
     font-weight: 800;
-    font-size: 17px;
+    font-size: 13px;
 }
 
 /* Footer  */
@@ -1503,7 +1507,7 @@ footer{
     /* left: 31px; */
 }
 .lower-left p{
-    font-size: 13px;
+    font-size: 12px;
 }
 .lower-right{
         position: relative;
