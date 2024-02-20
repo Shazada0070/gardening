@@ -30,7 +30,10 @@ header{
     height: 100vh;
     position: relative;
     width: 100%;
-    padding:0px 30px;
+    padding:0px 0px;
+}
+.navbar-light{
+    padding: 0px 42px;
 }
 .btn-nav {
   font-size: 17px;
@@ -109,9 +112,6 @@ header{
 }
 .logo-content{
     font-size: 11px;
-}
-.navbar{
-    background: #ffff;
 }
 .search{
     background: green;
@@ -193,15 +193,16 @@ header{
     position: absolute;
     padding-right: 12%;
 }
-.right-img img{
-    position:relative;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.right-img img {
+    position: relative;
+    width: 80%;
+    height: 74%;
+    object-fit: contain;
     margin: 0;
     padding: 0;
-    z-index:100;
-
+    z-index: 100;
+    top: 54px;
+    left: 112px;
 }
 .right{
     position: relative;
@@ -270,7 +271,7 @@ header{
 .grass{
     width: 100%;
     left: 0;
-    bottom: -9%;
+    bottom: -3%;
 }
 
 /* Header Ends  */
@@ -299,8 +300,12 @@ header{
     top: -16%;
 }
 .box-up img{
+    align-items: center;
+    text-align: center;
     width:50px;
     padding-top: 10px;
+    position: relative;
+    right: 25%;
 }
 .box-content{
     margin-top: 136px;
@@ -321,9 +326,10 @@ header{
 
 
 .section-2{
-    padding: 0px 30px;
+    padding: 0px 42px;
     height: 100vh;
     position: relative;
+    text-align: center;
 }
 .about-image{
     position: relative;
@@ -377,11 +383,8 @@ header{
     background: green;
     color: #fff;
     padding: 10px 20px;
-    font-size: 20px;
     margin-top: 20px;
-    position: relative;
     display: inline-block;
-    left: 35%;
     border-radius: 5px;
     border: 1px solid transparent;
 }
@@ -465,17 +468,36 @@ input:focus{
     background: green;
     border-radius: 5px;
     padding: 10px 20px;
-    margin: auto;
-   position: relative;
-    left: 45%;
-    top: 33px;
-    margin-top: 10px;
+    position: relative;
+    left: 0;
+    top: 60px;
+    margin-top: 34px;
 }
 .get-estimate:hover{
     background: #ffff;
     color: green;
     border: 1px solid green;
 }
+.view-more{
+    text-decoration: none;
+    outline: none;
+    border: 1px solid transparent;
+    color: #fff;
+    background: green;
+    border-radius: 5px;
+    padding: 10px 20px;
+    position: relative;
+    left: 620px;
+    top: 60px;
+    margin-top: 34px;
+}
+.view-more:hover{
+    background: #ffff;
+    color: green;
+    border: 1px solid green;
+}
+   
+
 .form-leaf{
     position: absolute;
 }
@@ -525,8 +547,8 @@ input:focus{
     /* height: 100vh; */
     /* position: relative; */
     padding: 70px 30px;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 100px;
+    padding-bottom: 42px
 }
 .sec-5-box{
     display: flex;
@@ -669,6 +691,7 @@ align-self: flex-start;
 /* Section 6  */
 /* Section 7 */
 .section-7{
+    height: 90vh;
     padding: 70px 0px;
     position: relative;
 }
@@ -695,26 +718,27 @@ align-self: flex-start;
 }
 .bottom-7{
     margin-top: 0px;
-    top: 380px;
+    top: 750px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    font-weight: 700;
+    font-weight: 400;
     position: absolute;
-    left: 245px;
-    bottom: -171px;
+    left: 100px;
+    bottom: -50px;
 }
 .bottom-7 h4{
     text-transform: uppercase;
-    font-size: x-large;
- 
+    font-size: 19px;
+    font-weight: 600;
 }
-.bottom-7 p{
+.bottom-7 p {
+    text-align: center;
     font-size: 13px;
     font-weight: 400;
-    width: 74%;
+    width: 40%;
 }
 .bottom-7 a{
     text-decoration: none;
@@ -726,22 +750,20 @@ align-self: flex-start;
     background: #000;
     color: #fff!important;
 }
+.test-bg img{
+    height: 400px;
+    width: 320px;
+    position: relative;
+    top: 310px;
+    right: 18%;
+}
 .test-bg{
     position: absolute;
-        /* background: #fff; */
+    background: #fff;
     z-index: 10;
     right: 0;
-    height: 490px;
-    top: 80px;
-}
-.test-bg img{
-    width: 100%;
-    height: 80%;
-    object-fit: cover;
-    position: relative;
-    top: 152px;
-    right: 60px;
-}
+    height: 2px;
+    top: 0;}
 .grass-bottom{
     
     z-index: -2;
@@ -756,15 +778,6 @@ align-self: flex-start;
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-.bg-white{
-   z-index: 1;
-    top: 10px;
-    right: 0;
-    position: absolute;
-    width: 400px;
-    height: 400px;
-    background: #fff;
 }
 
 /* Section 7 */
@@ -1236,8 +1249,12 @@ footer{
 @media(max-width:480px){
 
     /* Header  */
-
-    header{
+    .get-estimate{
+        position: relative;
+    left: 0%;
+    top: 1%;
+    }
+     header{
         min-height: 870px;
     }
    
@@ -1355,12 +1372,7 @@ footer{
     /* min-height: 110vh; */
 }
     /* margin: 0px; */
-.get-estimate{
-   
-    top: 26%;
-    left: 31%;
 
-}
 .form-leaf3{
     right: 0px;
 }
@@ -1444,11 +1456,12 @@ z-index: 100;
     
 }
 .test-bg img{
-    position: relative;
-    top: 80px;
-    height: 60%;
-    left: 0px;
-    object-fit: contain;
+        height: 344px;
+        object-fit: cover;
+        position: relative;
+        /* top: -24px; */
+        right: 150px;
+        bottom: 93%;
 }
 .grass-bottom{
     min-width:  100%;
@@ -1459,14 +1472,12 @@ z-index: 100;
     left: -12px;
     top: 508px;
     text-align: left;
-    text-align: left;
 }
-.bottom-7 h4{
-        /* padding: 0px 10px; */
+.bottom-7 h4 {
+    padding: 0px 10px;
     font-weight: 800;
-    font-size: 13px;
+    font-size: 15px;
 }
-
 /* Footer  */
 footer{
     min-width: 100%;
@@ -1514,6 +1525,11 @@ footer{
     left: 30px;
 
 }
-    }
-   
+.endslide{
+    height: 100vh;
+    position: relative;}
 
+.mid-7{
+    height: 100vh;
+    width: 100vw;
+}
