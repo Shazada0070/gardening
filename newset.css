@@ -1,4 +1,4 @@
-.carousel-item1{
+.carousel-item{
     height: 100%;
     position: relative;
     display: none;
@@ -8,7 +8,7 @@
     backface-visibility: hidden;
     transition: transform .6s ease-in-out;
 }
-.carousel-inner1{
+.carousel-inner {
     height: 100%;
     position: relative;
     width: 100%;
@@ -32,7 +32,7 @@ input.enddiv::placeholder{
         border: 2px solid green;
         border-radius: 3px;
         position: relative;
-        left: 422px;
+        left: 421px;
         width: 448px;
         height: 88px;
         top: 20px;
@@ -79,11 +79,12 @@ right-img img {
 }
 
         .enddiv {
-            width: 214px;
+            width: 203px;
             height: 44px;
             position: relative;
             top: 29%;
-            left: 103px;}
+            left: 60px;
+        }
             .bottom-7 {
                 text-align: center;
                 width: 80%;
