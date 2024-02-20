@@ -755,7 +755,7 @@ align-self: flex-start;
     height: 500px;
     width: 400px;
     position: relative;
-    top: 90%;
+    top: 54%;
     right: 10%;
 
 }
@@ -770,7 +770,7 @@ align-self: flex-start;
 .grass-bottom{
     
     z-index: -2;
-   bottom: -190px;
+   bottom: 0px;
 
     /* left: -74px; */
     width: 100%;
@@ -799,7 +799,7 @@ footer{
     position: relative;
     background: #111;
     width: 100%;
-    top: 190px;
+    top: 0px;
 }
 .footer-upper{
     display: flex;
@@ -822,13 +822,15 @@ footer{
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
 }
-.sec-1{
+.sec-1 {
     display: flex;
+    gap: 15px;
     /* max-height: 400px; */
     width: 36%;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-evenly;
+    font-size: 15px;
 }
 .sec-1>p{
     margin: 20px 0px;
@@ -852,13 +854,15 @@ footer{
 .contact a img{
     margin-right:10px ;
 }
-.sec-2{
-        display: flex;
-     /* max-height: 400px; */
+.sec-2 {
+    display: flex;
+    /* max-height: 400px; */
     width: 25%;
     align-items: flex-start;
     flex-direction: column;
     justify-content: space-between;
+    font-size: 17px;
+    gap: 15px;
 }
 .sec-2 ul{
     margin: 0;
@@ -873,13 +877,15 @@ footer{
 .sec-2 ul li a img{
     margin-right: 10px;
 }
-.sec-3{
+.sec-3 {
     width: 25%;
     /* max-height: 400px; */
-        display: flex;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
+    gap: 15px;
+    font-size: 12px;
 }
 .sec-3 ul, .sec-3 ul li{
     margin: 0;
@@ -891,11 +897,13 @@ footer{
 .sec-4{
     width: 25%;
     /* max-height: 400px; */
-        display: flex;
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
     padding-left: 20px;
+    gap: 15px;
+    font-size: 16px;
 }
 .footer-email{
     color: #fff;
@@ -1009,8 +1017,9 @@ border-bottom: 1px solid green;
 }
 @media(min-width:1300px){
 
-    .right-5{
-        height: 53vh;
+    .right-5 {
+        height: 91vh;
+        width: 50%;
     }
     .box-bg2{
         left: 24%;
